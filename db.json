@@ -16,7 +16,7 @@
       {"id":2, "name":"Tráng miệng","moreInfo":"da la mon trang mieng "},
       {"id":3, "name":"Khai vị","moreInfo":"da la mon khai vi "},
       {"id":4, "name":"Đồ uống","moreInfo":"da la do uong "}
-    ]
+    ],
     
     "Shift":[
     {"id":1, "name":"Ca Sáng", "timeBegin":"07:00", "timeFinish":"10:000"},
