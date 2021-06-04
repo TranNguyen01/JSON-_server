@@ -1,27 +1,97 @@
 {
-    "Food": [
-        {"id":1, "category":1,"name":"Pizza","img":"https://www.delonghi.com/Global/recipes/multifry/pizza_fresca.jpg", "price":500000, "moreInfo": "Nhiều calory"},
-        {"id":2, "category":1,"name":"Pizza","img":"https://www.helpguide.org/wp-content/uploads/table-with-grains-vegetables-fruit-768.jpg", "price":500000, "moreInfo": "Nhiều calory"},
-        {"id":3, "category":3,"name":"Pizza","img":"https://www.efsa.europa.eu/sites/default/files/styles/share_opengraph/public/2021-03/experts_food_additives.jpg?h=827069f2&itok=7wCBtOIO", "price":400000, "moreInfo": "Rất rất ít calory"},
-        {"id":4, "category":4,"name":"Pizza","img":"https://www.johnniewalker.com/media/5696/wg_drinkwhisky_c63_r_d.jpg?mode=pad&amp;width=768&amp;rnd=132489869960000000", "price":100000, "moreInfo": "Nhiều calory"},
-        {"id":5, "category":4,"name":"Pizza","img":"https://www.johnniewalker.com/media/5696/wg_drinkwhisky_c63_r_d.jpg?mode=pad&amp;width=768&amp;rnd=132489869960000000", "price":200000, "moreInfo": "Có cồn, uống nhiều say, bị phạt"},
-        {"id":6, "category":1,"name":"Pizza","img":"https://www.delonghi.com/Global/recipes/multifry/pizza_fresca.jpg", "price":600000, "moreInfo": "Nhiều calory"},
-        {"id":7, "category":4,"name":"Pizza","img":"https://www.delonghi.com/Global/recipes/multifry/pizza_fresca.jpg", "price":90000, "moreInfo": "Nhiều calory"},
-        {"id":8, "category":4,"name":"Pizza","img":"https://www.delonghi.com/Global/recipes/multifry/pizza_fresca.jpg", "price":90000, "moreInfo": "Nhiều calory"},
-        {"id":9, "category":3,"name":"Pizza","img":"https://www.efsa.europa.eu/sites/default/files/styles/share_opengraph/public/2021-03/experts_food_additives.jpg?h=827069f2&itok=7wCBtOIO", "price":400000, "moreInfo": "Rất rất ít calory"}    
-      ],
-
-    "Category":[
-      {"id":1, "name":"Món chính","moreInfo":"da la mon chinh "},
-      {"id":2, "name":"Tráng miệng","moreInfo":"da la mon trang mieng "},
-      {"id":3, "name":"Khai vị","moreInfo":"da la mon khai vi "},
-      {"id":4, "name":"Đồ uống","moreInfo":"da la do uong "}
-    ],
-    
-    "Shift":[
-      {"id":1, "name":"Ca sáng","timeBegin":"08:00", "timeFinish":"10:00"},
-      {"id":2, "name":"Ca Trưa","timeBegin":"10:00", "timeFinish":"12:00"},
-      {"id":3, "name":"Ca Chiều","timeBegin":"15:00", "timeFinish":"17:00"},
-      {"id":1, "name":"Ca sáng","timeBegin":"19:00", "timeFinish":"21:00"}
-    ]
+  "Food": [
+    {
+      "id": 1,
+      "name": "Pizza",
+      "img": "https://www.delonghi.com/Global/recipes/multifry/pizza_fresca.jpg",
+      "price": 500000,
+      "category": {
+        "id": 1,
+        "name": "Món chính",
+        "moreInfo": "Đây là món chính"
+      },
+      "moreInfo": "Nhiều calory"
+    },
+    {
+      "id": 2,
+      "name": "Pizza",
+      "img": "https://www.helpguide.org/wp-content/uploads/table-with-grains-vegetables-fruit-768.jpg",
+      "price": 500000,
+      "category": {
+        "id": 1,
+        "name": "Món chính",
+        "moreInfo": "Đây là món chính"
+      },
+      "moreInfo": "Nhiều calory"
+    },
+    {
+      "id": 3,
+      "name": "Pizza",
+      "img": "https://www.efsa.europa.eu/sites/default/files/styles/share_opengraph/public/2021-03/experts_food_additives.jpg?h=827069f2&itok=7wCBtOIO",
+      "price": 400000,
+      "category": {
+        "id": 3,
+        "name": "Khai vị",
+        "moreInfo": "Món khai vị"
+      },
+      "moreInfo": "Rất rất ít calory"
+    },
+    {
+      "id": 4,
+      "name": "Pizza",
+      "img": "https://www.johnniewalker.com/media/5696/wg_drinkwhisky_c63_r_d.jpg?mode=pad&amp;width=768&amp;rnd=132489869960000000",
+      "price": 100000,
+      "category": {
+        "id": 4,
+        "name": "Đồ uống",
+        "moreInfo": "Uống đò"
+      },
+      "moreInfo": "Nhiều calory"
+    },
+    {
+      "id": 5,
+      "name": "Pizza",
+      "img": "https://www.johnniewalker.com/media/5696/wg_drinkwhisky_c63_r_d.jpg?mode=pad&amp;width=768&amp;rnd=132489869960000000",
+      "price": 200000,
+      "category": {
+        "id": 4,
+        "name": "Đồ uống",
+        "moreInfo": "Uống đò"
+      },
+      "moreInfo": "Có cồn, uống nhiều say, bị phạt"
+    }
+  ],
+  "Category": [
+    {
+      "id": 1,
+      "name": "Món chính",
+      "moreInfo": "Đây là món chính"
+    },
+    {
+      "id": 2,
+      "name": "Tráng miệng",
+      "moreInfo": "Đây là món tráng miệng"
+    },
+    {
+      "id": 3,
+      "name": "Khai vị",
+      "moreInfo": "Món khai vị"
+    },
+    {
+      "id": 4,
+      "name": "Đồ uống",
+      "moreInfo": "Uống đò"
+    },
+    {
+      "name": "adadasd",
+      "moreInfo": "asdasdasd",
+      "id": 5
+    }
+  ],
+  "Shift":[
+    {"id":1, "name":"Ca sáng","timeBegin":"08:00", "timeFinish":"10:00"},
+    {"id":2, "name":"Ca Trưa","timeBegin":"10:00", "timeFinish":"12:00"},
+    {"id":3, "name":"Ca Chiều","timeBegin":"15:00", "timeFinish":"17:00"},
+    {"id":1, "name":"Ca sáng","timeBegin":"19:00", "timeFinish":"21:00"}
+  ]
 }
