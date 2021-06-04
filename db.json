@@ -88,7 +88,7 @@
       "id": 5
     }
   ],
-  "Shift":[
+  "Shift": [
     {"id":1, "name":"Ca sáng","timeBegin":"08:00", "timeFinish":"10:00"},
     {"id":2, "name":"Ca Trưa","timeBegin":"10:00", "timeFinish":"12:00"},
     {"id":3, "name":"Ca Chiều","timeBegin":"15:00", "timeFinish":"17:00"},
