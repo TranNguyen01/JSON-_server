@@ -23,5 +23,5 @@
     {"id":2, "name":"Ca Trứa", "timeBegin":"11:00", "timeFinish":"13:000"},
     {"id":3, "name":"Ca Chiều", "timeBegin":"15:00", "timeFinish":"17:000"},
     {"id":4, "name":"Ca Tối", "timeBegin":"18:00", "timeFinish":"21:000"}
-    ]
+    ],
 }
