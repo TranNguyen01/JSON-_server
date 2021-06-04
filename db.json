@@ -16,7 +16,12 @@
       {"id":2, "name":"Tráng miệng","moreInfo":"da la mon trang mieng "},
       {"id":3, "name":"Khai vị","moreInfo":"da la mon khai vi "},
       {"id":4, "name":"Đồ uống","moreInfo":"da la do uong "}
-      
-
+    ]
+    
+    "Shift":[
+    {"id":1, "name":"Ca Sáng", "timeBegin":"07:00", "timeFinish":"10:000"},
+    {"id":2, "name":"Ca Trứa", "timeBegin":"11:00", "timeFinish":"13:000"},
+    {"id":3, "name":"Ca Chiều", "timeBegin":"15:00", "timeFinish":"17:000"},
+    {"id":4, "name":"Ca Tối", "timeBegin":"18:00", "timeFinish":"21:000"}
     ]
 }
